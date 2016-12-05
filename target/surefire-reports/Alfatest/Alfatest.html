@@ -1,0 +1,229 @@
+<html>
+<head>
+<title>TestNG:  Alfatest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Alfatest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>30/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Dec 05 15:30:59 MSK 2016</td>
+</tr>
+<tr><td>Total time:</td><td>60 seconds (60278 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.test.alfa.AlfaTestStepsHP.s01_BrowserMaximizeLaunch()'><b>s01_BrowserMaximizeLaunch</b><br>Test class: org.test.alfa.AlfaTestStepsHP</td>
+<td></td>
+<td>6</td>
+<td>AlfaTestStepsHP[org.test.alfa.AlfaTestStepsHP@464bee09]</td></tr>
+<tr>
+<td title='org.test.alfa.AlfaTestStepsTV.s01_BrowserMaximizeLaunch()'><b>s01_BrowserMaximizeLaunch</b><br>Test class: org.test.alfa.AlfaTestStepsTV</td>
+<td></td>
+<td>3</td>
+<td>AlfaTestStepsTV[org.test.alfa.AlfaTestStepsTV@72d818d1]</td></tr>
+<tr>
+<td title='org.test.alfa.AlfaTestStepsHP.s02_UrlOpen()'><b>s02_UrlOpen</b><br>Test class: org.test.alfa.AlfaTestStepsHP</td>
+<td></td>
+<td>1</td>
+<td>AlfaTestStepsHP[org.test.alfa.AlfaTestStepsHP@464bee09]</td></tr>
+<tr>
+<td title='org.test.alfa.AlfaTestStepsTV.s02_UrlOpen()'><b>s02_UrlOpen</b><br>Test class: org.test.alfa.AlfaTestStepsTV</td>
+<td></td>
+<td>1</td>
+<td>AlfaTestStepsTV[org.test.alfa.AlfaTestStepsTV@72d818d1]</td></tr>
+<tr>
+<td title='org.test.alfa.AlfaTestStepsHP.s03_UrlCcheck()'><b>s03_UrlCcheck</b><br>Test class: org.test.alfa.AlfaTestStepsHP</td>
+<td></td>
+<td>0</td>
+<td>AlfaTestStepsHP[org.test.alfa.AlfaTestStepsHP@464bee09]</td></tr>
+<tr>
+<td title='org.test.alfa.AlfaTestStepsTV.s03_UrlCcheck()'><b>s03_UrlCcheck</b><br>Test class: org.test.alfa.AlfaTestStepsTV</td>
+<td></td>
+<td>0</td>
+<td>AlfaTestStepsTV[org.test.alfa.AlfaTestStepsTV@72d818d1]</td></tr>
+<tr>
+<td title='org.test.alfa.AlfaTestStepsHP.s04_MarketOpen()'><b>s04_MarketOpen</b><br>Test class: org.test.alfa.AlfaTestStepsHP</td>
+<td></td>
+<td>2</td>
+<td>AlfaTestStepsHP[org.test.alfa.AlfaTestStepsHP@464bee09]</td></tr>
+<tr>
+<td title='org.test.alfa.AlfaTestStepsTV.s04_MarketOpen()'><b>s04_MarketOpen</b><br>Test class: org.test.alfa.AlfaTestStepsTV</td>
+<td></td>
+<td>2</td>
+<td>AlfaTestStepsTV[org.test.alfa.AlfaTestStepsTV@72d818d1]</td></tr>
+<tr>
+<td title='org.test.alfa.AlfaTestStepsHP.s05_MarketUrlCheck()'><b>s05_MarketUrlCheck</b><br>Test class: org.test.alfa.AlfaTestStepsHP</td>
+<td></td>
+<td>0</td>
+<td>AlfaTestStepsHP[org.test.alfa.AlfaTestStepsHP@464bee09]</td></tr>
+<tr>
+<td title='org.test.alfa.AlfaTestStepsTV.s05_MarketUrlCheck()'><b>s05_MarketUrlCheck</b><br>Test class: org.test.alfa.AlfaTestStepsTV</td>
+<td></td>
+<td>0</td>
+<td>AlfaTestStepsTV[org.test.alfa.AlfaTestStepsTV@72d818d1]</td></tr>
+<tr>
+<td title='org.test.alfa.AlfaTestStepsHP.s06_ElectronicsOpen()'><b>s06_ElectronicsOpen</b><br>Test class: org.test.alfa.AlfaTestStepsHP</td>
+<td></td>
+<td>2</td>
+<td>AlfaTestStepsHP[org.test.alfa.AlfaTestStepsHP@464bee09]</td></tr>
+<tr>
+<td title='org.test.alfa.AlfaTestStepsTV.s06_ElectronicsOpen()'><b>s06_ElectronicsOpen</b><br>Test class: org.test.alfa.AlfaTestStepsTV</td>
+<td></td>
+<td>2</td>
+<td>AlfaTestStepsTV[org.test.alfa.AlfaTestStepsTV@72d818d1]</td></tr>
+<tr>
+<td title='org.test.alfa.AlfaTestStepsHP.s07_HeadphonesOpen()'><b>s07_HeadphonesOpen</b><br>Test class: org.test.alfa.AlfaTestStepsHP</td>
+<td></td>
+<td>4</td>
+<td>AlfaTestStepsHP[org.test.alfa.AlfaTestStepsHP@464bee09]</td></tr>
+<tr>
+<td title='org.test.alfa.AlfaTestStepsTV.s07_TVOpen()'><b>s07_TVOpen</b><br>Test class: org.test.alfa.AlfaTestStepsTV</td>
+<td></td>
+<td>3</td>
+<td>AlfaTestStepsTV[org.test.alfa.AlfaTestStepsTV@72d818d1]</td></tr>
+<tr>
+<td title='org.test.alfa.AlfaTestStepsHP.s08_HPUrlCheck()'><b>s08_HPUrlCheck</b><br>Test class: org.test.alfa.AlfaTestStepsHP</td>
+<td></td>
+<td>0</td>
+<td>AlfaTestStepsHP[org.test.alfa.AlfaTestStepsHP@464bee09]</td></tr>
+<tr>
+<td title='org.test.alfa.AlfaTestStepsTV.s08_TVUrlCheck()'><b>s08_TVUrlCheck</b><br>Test class: org.test.alfa.AlfaTestStepsTV</td>
+<td></td>
+<td>0</td>
+<td>AlfaTestStepsTV[org.test.alfa.AlfaTestStepsTV@72d818d1]</td></tr>
+<tr>
+<td title='org.test.alfa.AlfaTestStepsHP.s09_MinSumSet()'><b>s09_MinSumSet</b><br>Test class: org.test.alfa.AlfaTestStepsHP</td>
+<td></td>
+<td>0</td>
+<td>AlfaTestStepsHP[org.test.alfa.AlfaTestStepsHP@464bee09]</td></tr>
+<tr>
+<td title='org.test.alfa.AlfaTestStepsTV.s09_MinSumSet()'><b>s09_MinSumSet</b><br>Test class: org.test.alfa.AlfaTestStepsTV</td>
+<td></td>
+<td>0</td>
+<td>AlfaTestStepsTV[org.test.alfa.AlfaTestStepsTV@72d818d1]</td></tr>
+<tr>
+<td title='org.test.alfa.AlfaTestStepsHP.s10_SetBrand()'><b>s10_SetBrand</b><br>Test class: org.test.alfa.AlfaTestStepsHP</td>
+<td></td>
+<td>0</td>
+<td>AlfaTestStepsHP[org.test.alfa.AlfaTestStepsHP@464bee09]</td></tr>
+<tr>
+<td title='org.test.alfa.AlfaTestStepsTV.s10_SetBrand()'><b>s10_SetBrand</b><br>Test class: org.test.alfa.AlfaTestStepsTV</td>
+<td></td>
+<td>0</td>
+<td>AlfaTestStepsTV[org.test.alfa.AlfaTestStepsTV@72d818d1]</td></tr>
+<tr>
+<td title='org.test.alfa.AlfaTestStepsHP.s11_PressApply()'><b>s11_PressApply</b><br>Test class: org.test.alfa.AlfaTestStepsHP</td>
+<td></td>
+<td>0</td>
+<td>AlfaTestStepsHP[org.test.alfa.AlfaTestStepsHP@464bee09]</td></tr>
+<tr>
+<td title='org.test.alfa.AlfaTestStepsTV.s11_PressApply()'><b>s11_PressApply</b><br>Test class: org.test.alfa.AlfaTestStepsTV</td>
+<td></td>
+<td>0</td>
+<td>AlfaTestStepsTV[org.test.alfa.AlfaTestStepsTV@72d818d1]</td></tr>
+<tr>
+<td title='org.test.alfa.AlfaTestStepsHP.s12_CountItems()'><b>s12_CountItems</b><br>Test class: org.test.alfa.AlfaTestStepsHP</td>
+<td></td>
+<td>5</td>
+<td>AlfaTestStepsHP[org.test.alfa.AlfaTestStepsHP@464bee09]</td></tr>
+<tr>
+<td title='org.test.alfa.AlfaTestStepsTV.s12_CountItems()'><b>s12_CountItems</b><br>Test class: org.test.alfa.AlfaTestStepsTV</td>
+<td></td>
+<td>5</td>
+<td>AlfaTestStepsTV[org.test.alfa.AlfaTestStepsTV@72d818d1]</td></tr>
+<tr>
+<td title='org.test.alfa.AlfaTestStepsHP.s13_FindFirstItem()'><b>s13_FindFirstItem</b><br>Test class: org.test.alfa.AlfaTestStepsHP</td>
+<td></td>
+<td>0</td>
+<td>AlfaTestStepsHP[org.test.alfa.AlfaTestStepsHP@464bee09]</td></tr>
+<tr>
+<td title='org.test.alfa.AlfaTestStepsTV.s13_FindFirstItem()'><b>s13_FindFirstItem</b><br>Test class: org.test.alfa.AlfaTestStepsTV</td>
+<td></td>
+<td>0</td>
+<td>AlfaTestStepsTV[org.test.alfa.AlfaTestStepsTV@72d818d1]</td></tr>
+<tr>
+<td title='org.test.alfa.AlfaTestStepsHP.s14_SearchByName()'><b>s14_SearchByName</b><br>Test class: org.test.alfa.AlfaTestStepsHP</td>
+<td></td>
+<td>0</td>
+<td>AlfaTestStepsHP[org.test.alfa.AlfaTestStepsHP@464bee09]</td></tr>
+<tr>
+<td title='org.test.alfa.AlfaTestStepsTV.s14_SearchByName()'><b>s14_SearchByName</b><br>Test class: org.test.alfa.AlfaTestStepsTV</td>
+<td></td>
+<td>0</td>
+<td>AlfaTestStepsTV[org.test.alfa.AlfaTestStepsTV@72d818d1]</td></tr>
+<tr>
+<td title='org.test.alfa.AlfaTestStepsHP.s15_CheckFoundItem()'><b>s15_CheckFoundItem</b><br>Test class: org.test.alfa.AlfaTestStepsHP</td>
+<td></td>
+<td>12</td>
+<td>AlfaTestStepsHP[org.test.alfa.AlfaTestStepsHP@464bee09]</td></tr>
+<tr>
+<td title='org.test.alfa.AlfaTestStepsTV.s15_CheckFoundItem()'><b>s15_CheckFoundItem</b><br>Test class: org.test.alfa.AlfaTestStepsTV</td>
+<td></td>
+<td>4</td>
+<td>AlfaTestStepsTV[org.test.alfa.AlfaTestStepsTV@72d818d1]</td></tr>
+</table><p>
+</body>
+</html>

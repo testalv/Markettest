@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Alfatest]">
+  <test name="Alfatest">
+    <classes>
+      <class name="org.test.alfa.AlfaTestStepsHP">
+        <methods>
+          <include name="AlfaTestStepsHP"/>
+        </methods>
+      </class> <!-- org.test.alfa.AlfaTestStepsHP -->
+      <class name="org.test.alfa.AlfaTestStepsTV">
+        <methods>
+          <include name="AlfaTestStepsTV"/>
+        </methods>
+      </class> <!-- org.test.alfa.AlfaTestStepsTV -->
+    </classes>
+  </test> <!-- Alfatest -->
+</suite> <!-- Failed suite [Alfatest] -->

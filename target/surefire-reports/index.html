@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Alfatest">
+              <span class="suite-name border-passed">Alfatest</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Alfatest">
+                    <span>E:\___Java\Alfatest\src\test\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Alfatest">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Alfatest">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Alfatest">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Alfatest">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Alfatest">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Alfatest">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">30 methods,   30 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Alfatest" class="hide-methods passed suite-Alfatest"> (hide)</a> <!-- hide-methods passed suite-Alfatest -->
+                      <a href="#" panel-name="suite-Alfatest" class="show-methods passed suite-Alfatest"> (show)</a> <!-- show-methods passed suite-Alfatest -->
+                    </span>
+                    <div class="method-list-content passed suite-Alfatest">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Alfatest" title="org.test.alfa.AlfaTestStepsTV" hash-for-method="s01_BrowserMaximizeLaunch">s01_BrowserMaximizeLaunch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Alfatest" title="org.test.alfa.AlfaTestStepsHP" hash-for-method="s01_BrowserMaximizeLaunch">s01_BrowserMaximizeLaunch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Alfatest" title="org.test.alfa.AlfaTestStepsHP" hash-for-method="s02_UrlOpen">s02_UrlOpen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Alfatest" title="org.test.alfa.AlfaTestStepsTV" hash-for-method="s02_UrlOpen">s02_UrlOpen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Alfatest" title="org.test.alfa.AlfaTestStepsHP" hash-for-method="s03_UrlCcheck">s03_UrlCcheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Alfatest" title="org.test.alfa.AlfaTestStepsTV" hash-for-method="s03_UrlCcheck">s03_UrlCcheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Alfatest" title="org.test.alfa.AlfaTestStepsTV" hash-for-method="s04_MarketOpen">s04_MarketOpen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Alfatest" title="org.test.alfa.AlfaTestStepsHP" hash-for-method="s04_MarketOpen">s04_MarketOpen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Alfatest" title="org.test.alfa.AlfaTestStepsTV" hash-for-method="s05_MarketUrlCheck">s05_MarketUrlCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Alfatest" title="org.test.alfa.AlfaTestStepsHP" hash-for-method="s05_MarketUrlCheck">s05_MarketUrlCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Alfatest" title="org.test.alfa.AlfaTestStepsHP" hash-for-method="s06_ElectronicsOpen">s06_ElectronicsOpen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Alfatest" title="org.test.alfa.AlfaTestStepsTV" hash-for-method="s06_ElectronicsOpen">s06_ElectronicsOpen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Alfatest" title="org.test.alfa.AlfaTestStepsHP" hash-for-method="s07_HeadphonesOpen">s07_HeadphonesOpen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Alfatest" title="org.test.alfa.AlfaTestStepsTV" hash-for-method="s07_TVOpen">s07_TVOpen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Alfatest" title="org.test.alfa.AlfaTestStepsHP" hash-for-method="s08_HPUrlCheck">s08_HPUrlCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Alfatest" title="org.test.alfa.AlfaTestStepsTV" hash-for-method="s08_TVUrlCheck">s08_TVUrlCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Alfatest" title="org.test.alfa.AlfaTestStepsHP" hash-for-method="s09_MinSumSet">s09_MinSumSet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Alfatest" title="org.test.alfa.AlfaTestStepsTV" hash-for-method="s09_MinSumSet">s09_MinSumSet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Alfatest" title="org.test.alfa.AlfaTestStepsTV" hash-for-method="s10_SetBrand">s10_SetBrand</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Alfatest" title="org.test.alfa.AlfaTestStepsHP" hash-for-method="s10_SetBrand">s10_SetBrand</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Alfatest" title="org.test.alfa.AlfaTestStepsTV" hash-for-method="s11_PressApply">s11_PressApply</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Alfatest" title="org.test.alfa.AlfaTestStepsHP" hash-for-method="s11_PressApply">s11_PressApply</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Alfatest" title="org.test.alfa.AlfaTestStepsHP" hash-for-method="s12_CountItems">s12_CountItems</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Alfatest" title="org.test.alfa.AlfaTestStepsTV" hash-for-method="s12_CountItems">s12_CountItems</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Alfatest" title="org.test.alfa.AlfaTestStepsTV" hash-for-method="s13_FindFirstItem">s13_FindFirstItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Alfatest" title="org.test.alfa.AlfaTestStepsHP" hash-for-method="s13_FindFirstItem">s13_FindFirstItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Alfatest" title="org.test.alfa.AlfaTestStepsHP" hash-for-method="s14_SearchByName">s14_SearchByName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Alfatest" title="org.test.alfa.AlfaTestStepsTV" hash-for-method="s14_SearchByName">s14_SearchByName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Alfatest" title="org.test.alfa.AlfaTestStepsTV" hash-for-method="s15_CheckFoundItem">s15_CheckFoundItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Alfatest" title="org.test.alfa.AlfaTestStepsHP" hash-for-method="s15_CheckFoundItem">s15_CheckFoundItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Alfatest -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Alfatest" class="panel Alfatest">
+          <div class="suite-Alfatest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.test.alfa.AlfaTestStepsTV</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="s01_BrowserMaximizeLaunch">
+                  </a> <!-- s01_BrowserMaximizeLaunch -->
+                  <span class="method-name">s01_BrowserMaximizeLaunch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="s02_UrlOpen">
+                  </a> <!-- s02_UrlOpen -->
+                  <span class="method-name">s02_UrlOpen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="s03_UrlCcheck">
+                  </a> <!-- s03_UrlCcheck -->
+                  <span class="method-name">s03_UrlCcheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="s04_MarketOpen">
+                  </a> <!-- s04_MarketOpen -->
+                  <span class="method-name">s04_MarketOpen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="s05_MarketUrlCheck">
+                  </a> <!-- s05_MarketUrlCheck -->
+                  <span class="method-name">s05_MarketUrlCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="s06_ElectronicsOpen">
+                  </a> <!-- s06_ElectronicsOpen -->
+                  <span class="method-name">s06_ElectronicsOpen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="s07_TVOpen">
+                  </a> <!-- s07_TVOpen -->
+                  <span class="method-name">s07_TVOpen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="s08_TVUrlCheck">
+                  </a> <!-- s08_TVUrlCheck -->
+                  <span class="method-name">s08_TVUrlCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="s09_MinSumSet">
+                  </a> <!-- s09_MinSumSet -->
+                  <span class="method-name">s09_MinSumSet</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="s10_SetBrand">
+                  </a> <!-- s10_SetBrand -->
+                  <span class="method-name">s10_SetBrand</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="s11_PressApply">
+                  </a> <!-- s11_PressApply -->
+                  <span class="method-name">s11_PressApply</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="s12_CountItems">
+                  </a> <!-- s12_CountItems -->
+                  <span class="method-name">s12_CountItems</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="s13_FindFirstItem">
+                  </a> <!-- s13_FindFirstItem -->
+                  <span class="method-name">s13_FindFirstItem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="s14_SearchByName">
+                  </a> <!-- s14_SearchByName -->
+                  <span class="method-name">s14_SearchByName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="s15_CheckFoundItem">
+                  </a> <!-- s15_CheckFoundItem -->
+                  <span class="method-name">s15_CheckFoundItem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Alfatest-class-passed -->
+          <div class="suite-Alfatest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.test.alfa.AlfaTestStepsHP</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="s01_BrowserMaximizeLaunch">
+                  </a> <!-- s01_BrowserMaximizeLaunch -->
+                  <span class="method-name">s01_BrowserMaximizeLaunch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="s02_UrlOpen">
+                  </a> <!-- s02_UrlOpen -->
+                  <span class="method-name">s02_UrlOpen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="s03_UrlCcheck">
+                  </a> <!-- s03_UrlCcheck -->
+                  <span class="method-name">s03_UrlCcheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="s04_MarketOpen">
+                  </a> <!-- s04_MarketOpen -->
+                  <span class="method-name">s04_MarketOpen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="s05_MarketUrlCheck">
+                  </a> <!-- s05_MarketUrlCheck -->
+                  <span class="method-name">s05_MarketUrlCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="s06_ElectronicsOpen">
+                  </a> <!-- s06_ElectronicsOpen -->
+                  <span class="method-name">s06_ElectronicsOpen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="s07_HeadphonesOpen">
+                  </a> <!-- s07_HeadphonesOpen -->
+                  <span class="method-name">s07_HeadphonesOpen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="s08_HPUrlCheck">
+                  </a> <!-- s08_HPUrlCheck -->
+                  <span class="method-name">s08_HPUrlCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="s09_MinSumSet">
+                  </a> <!-- s09_MinSumSet -->
+                  <span class="method-name">s09_MinSumSet</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="s10_SetBrand">
+                  </a> <!-- s10_SetBrand -->
+                  <span class="method-name">s10_SetBrand</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="s11_PressApply">
+                  </a> <!-- s11_PressApply -->
+                  <span class="method-name">s11_PressApply</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="s12_CountItems">
+                  </a> <!-- s12_CountItems -->
+                  <span class="method-name">s12_CountItems</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="s13_FindFirstItem">
+                  </a> <!-- s13_FindFirstItem -->
+                  <span class="method-name">s13_FindFirstItem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="s14_SearchByName">
+                  </a> <!-- s14_SearchByName -->
+                  <span class="method-name">s14_SearchByName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="s15_CheckFoundItem">
+                  </a> <!-- s15_CheckFoundItem -->
+                  <span class="method-name">s15_CheckFoundItem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Alfatest-class-passed -->
+        </div> <!-- panel Alfatest -->
+        <div panel-name="test-xml-Alfatest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\___Java\Alfatest\src\test\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Alfatest&quot;&gt;
+  &lt;test name=&quot;Alfatest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.test.alfa.AlfaTestStepsHP&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;AlfaTestStepsHP&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- org.test.alfa.AlfaTestStepsHP --&gt;
+      &lt;class name=&quot;org.test.alfa.AlfaTestStepsTV&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;AlfaTestStepsTV&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- org.test.alfa.AlfaTestStepsTV --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Alfatest --&gt;
+&lt;/suite&gt; &lt;!-- Alfatest --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Alfatest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Alfatest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Alfatest (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Alfatest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Alfatest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Alfatest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Alfatest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Alfatest');
+function tableData_Alfatest() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(30);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 's15_CheckFoundItem')
+data.setCell(0, 2, 'org.test.alfa.AlfaTestStepsHP')
+data.setCell(0, 3, 12321);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 's01_BrowserMaximizeLaunch')
+data.setCell(1, 2, 'org.test.alfa.AlfaTestStepsHP')
+data.setCell(1, 3, 6445);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 's12_CountItems')
+data.setCell(2, 2, 'org.test.alfa.AlfaTestStepsHP')
+data.setCell(2, 3, 5574);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 's12_CountItems')
+data.setCell(3, 2, 'org.test.alfa.AlfaTestStepsTV')
+data.setCell(3, 3, 5472);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 's07_HeadphonesOpen')
+data.setCell(4, 2, 'org.test.alfa.AlfaTestStepsHP')
+data.setCell(4, 3, 4544);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 's15_CheckFoundItem')
+data.setCell(5, 2, 'org.test.alfa.AlfaTestStepsTV')
+data.setCell(5, 3, 4367);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 's07_TVOpen')
+data.setCell(6, 2, 'org.test.alfa.AlfaTestStepsTV')
+data.setCell(6, 3, 3924);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 's01_BrowserMaximizeLaunch')
+data.setCell(7, 2, 'org.test.alfa.AlfaTestStepsTV')
+data.setCell(7, 3, 3580);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 's06_ElectronicsOpen')
+data.setCell(8, 2, 'org.test.alfa.AlfaTestStepsHP')
+data.setCell(8, 3, 2972);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 's06_ElectronicsOpen')
+data.setCell(9, 2, 'org.test.alfa.AlfaTestStepsTV')
+data.setCell(9, 3, 2514);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 's04_MarketOpen')
+data.setCell(10, 2, 'org.test.alfa.AlfaTestStepsTV')
+data.setCell(10, 3, 2304);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 's04_MarketOpen')
+data.setCell(11, 2, 'org.test.alfa.AlfaTestStepsHP')
+data.setCell(11, 3, 2248);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 's02_UrlOpen')
+data.setCell(12, 2, 'org.test.alfa.AlfaTestStepsHP')
+data.setCell(12, 3, 1323);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 's02_UrlOpen')
+data.setCell(13, 2, 'org.test.alfa.AlfaTestStepsTV')
+data.setCell(13, 3, 1245);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 's10_SetBrand')
+data.setCell(14, 2, 'org.test.alfa.AlfaTestStepsTV')
+data.setCell(14, 3, 294);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 's14_SearchByName')
+data.setCell(15, 2, 'org.test.alfa.AlfaTestStepsTV')
+data.setCell(15, 3, 212);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 's11_PressApply')
+data.setCell(16, 2, 'org.test.alfa.AlfaTestStepsTV')
+data.setCell(16, 3, 177);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 's11_PressApply')
+data.setCell(17, 2, 'org.test.alfa.AlfaTestStepsHP')
+data.setCell(17, 3, 142);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 's14_SearchByName')
+data.setCell(18, 2, 'org.test.alfa.AlfaTestStepsHP')
+data.setCell(18, 3, 121);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 's10_SetBrand')
+data.setCell(19, 2, 'org.test.alfa.AlfaTestStepsHP')
+data.setCell(19, 3, 116);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 's13_FindFirstItem')
+data.setCell(20, 2, 'org.test.alfa.AlfaTestStepsTV')
+data.setCell(20, 3, 83);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 's09_MinSumSet')
+data.setCell(21, 2, 'org.test.alfa.AlfaTestStepsTV')
+data.setCell(21, 3, 72);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 's09_MinSumSet')
+data.setCell(22, 2, 'org.test.alfa.AlfaTestStepsHP')
+data.setCell(22, 3, 65);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 's13_FindFirstItem')
+data.setCell(23, 2, 'org.test.alfa.AlfaTestStepsHP')
+data.setCell(23, 3, 36);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 's08_HPUrlCheck')
+data.setCell(24, 2, 'org.test.alfa.AlfaTestStepsHP')
+data.setCell(24, 3, 25);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 's03_UrlCcheck')
+data.setCell(25, 2, 'org.test.alfa.AlfaTestStepsTV')
+data.setCell(25, 3, 18);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 's08_TVUrlCheck')
+data.setCell(26, 2, 'org.test.alfa.AlfaTestStepsTV')
+data.setCell(26, 3, 17);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 's05_MarketUrlCheck')
+data.setCell(27, 2, 'org.test.alfa.AlfaTestStepsHP')
+data.setCell(27, 3, 14);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 's05_MarketUrlCheck')
+data.setCell(28, 2, 'org.test.alfa.AlfaTestStepsTV')
+data.setCell(28, 3, 13);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 's03_UrlCcheck')
+data.setCell(29, 2, 'org.test.alfa.AlfaTestStepsHP')
+data.setCell(29, 3, 12);
+window.suiteTableData['Alfatest']= { tableData: data, tableDiv: 'times-div-Alfatest'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Alfatest">
+              </div> <!-- times-div-Alfatest -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Alfatest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Alfatest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Alfatest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Alfatest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.test.alfa.AlfaTestStepsHP</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">s01_BrowserMaximizeLaunch</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">s02_UrlOpen</span>
+                <span class="method-start">6446 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">s03_UrlCcheck</span>
+                <span class="method-start">7769 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">s04_MarketOpen</span>
+                <span class="method-start">7782 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">s05_MarketUrlCheck</span>
+                <span class="method-start">10030 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">s06_ElectronicsOpen</span>
+                <span class="method-start">10044 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">s07_HeadphonesOpen</span>
+                <span class="method-start">13016 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">s08_HPUrlCheck</span>
+                <span class="method-start">17560 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">s09_MinSumSet</span>
+                <span class="method-start">17585 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">s10_SetBrand</span>
+                <span class="method-start">17650 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">s11_PressApply</span>
+                <span class="method-start">17767 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">s12_CountItems</span>
+                <span class="method-start">17909 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">s13_FindFirstItem</span>
+                <span class="method-start">23483 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">s14_SearchByName</span>
+                <span class="method-start">23519 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">s15_CheckFoundItem</span>
+                <span class="method-start">23641 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.test.alfa.AlfaTestStepsTV</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">s01_BrowserMaximizeLaunch</span>
+                <span class="method-start">35964 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">s02_UrlOpen</span>
+                <span class="method-start">39545 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">s03_UrlCcheck</span>
+                <span class="method-start">40791 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">s04_MarketOpen</span>
+                <span class="method-start">40809 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">s05_MarketUrlCheck</span>
+                <span class="method-start">43113 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">s06_ElectronicsOpen</span>
+                <span class="method-start">43126 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">s07_TVOpen</span>
+                <span class="method-start">45641 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">s08_TVUrlCheck</span>
+                <span class="method-start">49565 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">s09_MinSumSet</span>
+                <span class="method-start">49582 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">s10_SetBrand</span>
+                <span class="method-start">49654 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">s11_PressApply</span>
+                <span class="method-start">49948 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">s12_CountItems</span>
+                <span class="method-start">50125 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">s13_FindFirstItem</span>
+                <span class="method-start">55598 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">s14_SearchByName</span>
+                <span class="method-start">55681 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">s15_CheckFoundItem</span>
+                <span class="method-start">55893 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

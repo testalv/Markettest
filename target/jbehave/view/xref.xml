@@ -1,0 +1,919 @@
+<xref>
+  <stories>
+    <performableStory>
+      <story>
+        <path>stories.alfa/AlfaTV.story</path>
+        <description>
+          <descriptionAsString></descriptionAsString>
+        </description>
+        <narrative>
+          <inOrderTo></inOrderTo>
+          <asA></asA>
+          <iWantTo></iWantTo>
+          <soThat></soThat>
+        </narrative>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <givenStories/>
+          <givenStoriesAsString></givenStoriesAsString>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <headerSeparator>|</headerSeparator>
+            <valueSeparator>|</valueSeparator>
+            <ignorableSeparator>|--</ignorableSeparator>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <property name="headerSeparator" value="|"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="ignorableSeparator" value="|--"/>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+            <trim>true</trim>
+          </examplesTable>
+        </givenStories>
+        <lifecycle>
+          <before>
+            <steps class="java.util.Arrays$ArrayList">
+              <a class="string-array"/>
+            </steps>
+          </before>
+          <after/>
+        </lifecycle>
+        <scenarios>
+          <scenario>
+            <title>Yandex Market Test</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+            <steps>
+              <string>Given I launch browser</string>
+              <string>When I open URL</string>
+              <string>Then URL is opened</string>
+              <string>When I navigate to Market</string>
+              <string>Then Market URL is opened</string>
+              <string>When I navigate to Electronics</string>
+              <string>When I navigate to TV</string>
+              <string>Then TV page is opened</string>
+              <string>When Set min sum</string>
+              <string>When I set brands</string>
+              <string>When I press Apply</string>
+              <string>Then Count items displayed</string>
+              <string>When I find first item</string>
+              <string>Then Name of first item is entered in search field</string>
+              <string>Then Search made and name verified</string>
+            </steps>
+          </scenario>
+        </scenarios>
+        <name>AlfaTV.story</name>
+      </story>
+      <localizedNarrative>As a 
+I want to 
+So that </localizedNarrative>
+      <allowed>true</allowed>
+      <status>SUCCESSFUL</status>
+      <givenStories/>
+      <scenarios>
+        <performableScenario>
+          <scenario>
+            <title>Yandex Market Test</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+            <steps>
+              <string>Given I launch browser</string>
+              <string>When I open URL</string>
+              <string>Then URL is opened</string>
+              <string>When I navigate to Market</string>
+              <string>Then Market URL is opened</string>
+              <string>When I navigate to Electronics</string>
+              <string>When I navigate to TV</string>
+              <string>Then TV page is opened</string>
+              <string>When Set min sum</string>
+              <string>When I set brands</string>
+              <string>When I press Apply</string>
+              <string>Then Count items displayed</string>
+              <string>When I find first item</string>
+              <string>Then Name of first item is entered in search field</string>
+              <string>Then Search made and name verified</string>
+            </steps>
+          </scenario>
+          <storyPath>stories.alfa/AlfaTV.story</storyPath>
+          <allowed>true</allowed>
+          <normalPerformableScenario>
+            <parameters/>
+            <givenStories/>
+            <beforeSteps>
+              <matches/>
+            </beforeSteps>
+            <steps>
+              <matches>
+                <stepMatch>
+                  <type>THEN</type>
+                  <annotatedPattern>TV page is opened</annotatedPattern>
+                  <resolvedPattern>TV\s+page\s+is\s+opened</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>GIVEN</type>
+                  <annotatedPattern>I launch browser</annotatedPattern>
+                  <resolvedPattern>I\s+launch\s+browser</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>THEN</type>
+                  <annotatedPattern>URL is opened</annotatedPattern>
+                  <resolvedPattern>URL\s+is\s+opened</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>THEN</type>
+                  <annotatedPattern>Market URL is opened</annotatedPattern>
+                  <resolvedPattern>Market\s+URL\s+is\s+opened</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>WHEN</type>
+                  <annotatedPattern>I find first item</annotatedPattern>
+                  <resolvedPattern>I\s+find\s+first\s+item</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>THEN</type>
+                  <annotatedPattern>Search made and name verified</annotatedPattern>
+                  <resolvedPattern>Search\s+made\s+and\s+name\s+verified</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>WHEN</type>
+                  <annotatedPattern>Set min sum</annotatedPattern>
+                  <resolvedPattern>Set\s+min\s+sum</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>THEN</type>
+                  <annotatedPattern>Name of first item is entered in search field</annotatedPattern>
+                  <resolvedPattern>Name\s+of\s+first\s+item\s+is\s+entered\s+in\s+search\s+field</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>WHEN</type>
+                  <annotatedPattern>I set brands</annotatedPattern>
+                  <resolvedPattern>I\s+set\s+brands</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>THEN</type>
+                  <annotatedPattern>Count items displayed</annotatedPattern>
+                  <resolvedPattern>Count\s+items\s+displayed</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>WHEN</type>
+                  <annotatedPattern>I navigate to Market</annotatedPattern>
+                  <resolvedPattern>I\s+navigate\s+to\s+Market</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>WHEN</type>
+                  <annotatedPattern>I open URL</annotatedPattern>
+                  <resolvedPattern>I\s+open\s+URL</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>WHEN</type>
+                  <annotatedPattern>I navigate to Electronics</annotatedPattern>
+                  <resolvedPattern>I\s+navigate\s+to\s+Electronics</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>WHEN</type>
+                  <annotatedPattern>I press Apply</annotatedPattern>
+                  <resolvedPattern>I\s+press\s+Apply</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>WHEN</type>
+                  <annotatedPattern>I navigate to TV</annotatedPattern>
+                  <resolvedPattern>I\s+navigate\s+to\s+TV</resolvedPattern>
+                </stepMatch>
+              </matches>
+              <results>
+                <successful>
+                  <step>Given I launch browser</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>Given I launch browser</parametrisedStep>
+                  <durationInMillis>15</durationInMillis>
+                </successful>
+                <successful>
+                  <step>When I open URL</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>When I open URL</parametrisedStep>
+                  <durationInMillis>0</durationInMillis>
+                </successful>
+                <successful>
+                  <step>Then URL is opened</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>Then URL is opened</parametrisedStep>
+                  <durationInMillis>1</durationInMillis>
+                </successful>
+                <successful>
+                  <step>When I navigate to Market</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>When I navigate to Market</parametrisedStep>
+                  <durationInMillis>0</durationInMillis>
+                </successful>
+                <successful>
+                  <step>Then Market URL is opened</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>Then Market URL is opened</parametrisedStep>
+                  <durationInMillis>0</durationInMillis>
+                </successful>
+                <successful>
+                  <step>When I navigate to Electronics</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>When I navigate to Electronics</parametrisedStep>
+                  <durationInMillis>0</durationInMillis>
+                </successful>
+                <successful>
+                  <step>When I navigate to TV</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>When I navigate to TV</parametrisedStep>
+                  <durationInMillis>0</durationInMillis>
+                </successful>
+                <successful>
+                  <step>Then TV page is opened</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>Then TV page is opened</parametrisedStep>
+                  <durationInMillis>0</durationInMillis>
+                </successful>
+                <successful>
+                  <step>When Set min sum</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>When Set min sum</parametrisedStep>
+                  <durationInMillis>0</durationInMillis>
+                </successful>
+                <successful>
+                  <step>When I set brands</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>When I set brands</parametrisedStep>
+                  <durationInMillis>0</durationInMillis>
+                </successful>
+                <successful>
+                  <step>When I press Apply</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>When I press Apply</parametrisedStep>
+                  <durationInMillis>0</durationInMillis>
+                </successful>
+                <successful>
+                  <step>Then Count items displayed</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>Then Count items displayed</parametrisedStep>
+                  <durationInMillis>0</durationInMillis>
+                </successful>
+                <successful>
+                  <step>When I find first item</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>When I find first item</parametrisedStep>
+                  <durationInMillis>0</durationInMillis>
+                </successful>
+                <successful>
+                  <step>Then Name of first item is entered in search field</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>Then Name of first item is entered in search field</parametrisedStep>
+                  <durationInMillis>0</durationInMillis>
+                </successful>
+                <successful>
+                  <step>Then Search made and name verified</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>Then Search made and name verified</parametrisedStep>
+                  <durationInMillis>0</durationInMillis>
+                </successful>
+              </results>
+            </steps>
+            <afterSteps>
+              <matches/>
+            </afterSteps>
+            <storyAndScenarioMeta>
+              <properties/>
+            </storyAndScenarioMeta>
+            <scenario>
+              <title>Yandex Market Test</title>
+              <meta>
+                <properties/>
+              </meta>
+              <givenStories>
+                <givenStories/>
+                <givenStoriesAsString></givenStoriesAsString>
+                <examplesTable>
+                  <tableAsString></tableAsString>
+                  <headerSeparator>|</headerSeparator>
+                  <valueSeparator>|</valueSeparator>
+                  <ignorableSeparator>|--</ignorableSeparator>
+                  <tableTransformers>
+                    <transformers>
+                      <entry>
+                        <string>FORMATTING</string>
+                        <formatting/>
+                      </entry>
+                      <entry>
+                        <string>REPLACING</string>
+                        <replacing/>
+                      </entry>
+                      <entry>
+                        <string>FROM_LANDSCAPE</string>
+                        <fromLandscape/>
+                      </entry>
+                    </transformers>
+                  </tableTransformers>
+                  <headers/>
+                  <data/>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                  <propertiesAsString></propertiesAsString>
+                  <namedParameters/>
+                  <trim>true</trim>
+                </examplesTable>
+              </givenStories>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+              <steps>
+                <string>Given I launch browser</string>
+                <string>When I open URL</string>
+                <string>Then URL is opened</string>
+                <string>When I navigate to Market</string>
+                <string>Then Market URL is opened</string>
+                <string>When I navigate to Electronics</string>
+                <string>When I navigate to TV</string>
+                <string>Then TV page is opened</string>
+                <string>When Set min sum</string>
+                <string>When I set brands</string>
+                <string>When I press Apply</string>
+                <string>Then Count items displayed</string>
+                <string>When I find first item</string>
+                <string>Then Name of first item is entered in search field</string>
+                <string>Then Search made and name verified</string>
+              </steps>
+            </scenario>
+          </normalPerformableScenario>
+          <examplePerformableScenarios/>
+          <status>SUCCESSFUL</status>
+        </performableScenario>
+      </scenarios>
+      <beforeSteps/>
+      <afterSteps/>
+      <timing>
+        <durationInMillis>38</durationInMillis>
+      </timing>
+      <givenStory>false</givenStory>
+    </performableStory>
+  </stories>
+  <scenarios>
+    <performableScenario>
+      <scenario>
+        <title>Yandex Market Test</title>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <givenStories/>
+          <givenStoriesAsString></givenStoriesAsString>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <headerSeparator>|</headerSeparator>
+            <valueSeparator>|</valueSeparator>
+            <ignorableSeparator>|--</ignorableSeparator>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <property name="headerSeparator" value="|"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="ignorableSeparator" value="|--"/>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+            <trim>true</trim>
+          </examplesTable>
+        </givenStories>
+        <examplesTable>
+          <tableAsString></tableAsString>
+          <headerSeparator>|</headerSeparator>
+          <valueSeparator>|</valueSeparator>
+          <ignorableSeparator>|--</ignorableSeparator>
+          <tableTransformers>
+            <transformers>
+              <entry>
+                <string>FORMATTING</string>
+                <formatting/>
+              </entry>
+              <entry>
+                <string>REPLACING</string>
+                <replacing/>
+              </entry>
+              <entry>
+                <string>FROM_LANDSCAPE</string>
+                <fromLandscape/>
+              </entry>
+            </transformers>
+          </tableTransformers>
+          <headers/>
+          <data/>
+          <properties>
+            <property name="headerSeparator" value="|"/>
+            <property name="valueSeparator" value="|"/>
+            <property name="ignorableSeparator" value="|--"/>
+          </properties>
+          <propertiesAsString></propertiesAsString>
+          <namedParameters/>
+          <trim>true</trim>
+        </examplesTable>
+        <steps>
+          <string>Given I launch browser</string>
+          <string>When I open URL</string>
+          <string>Then URL is opened</string>
+          <string>When I navigate to Market</string>
+          <string>Then Market URL is opened</string>
+          <string>When I navigate to Electronics</string>
+          <string>When I navigate to TV</string>
+          <string>Then TV page is opened</string>
+          <string>When Set min sum</string>
+          <string>When I set brands</string>
+          <string>When I press Apply</string>
+          <string>Then Count items displayed</string>
+          <string>When I find first item</string>
+          <string>Then Name of first item is entered in search field</string>
+          <string>Then Search made and name verified</string>
+        </steps>
+      </scenario>
+      <storyPath>stories.alfa/AlfaTV.story</storyPath>
+      <allowed>true</allowed>
+      <normalPerformableScenario>
+        <parameters/>
+        <givenStories/>
+        <beforeSteps>
+          <matches/>
+        </beforeSteps>
+        <steps>
+          <matches>
+            <stepMatch>
+              <type>THEN</type>
+              <annotatedPattern>TV page is opened</annotatedPattern>
+              <resolvedPattern>TV\s+page\s+is\s+opened</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>GIVEN</type>
+              <annotatedPattern>I launch browser</annotatedPattern>
+              <resolvedPattern>I\s+launch\s+browser</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>THEN</type>
+              <annotatedPattern>URL is opened</annotatedPattern>
+              <resolvedPattern>URL\s+is\s+opened</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>THEN</type>
+              <annotatedPattern>Market URL is opened</annotatedPattern>
+              <resolvedPattern>Market\s+URL\s+is\s+opened</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>WHEN</type>
+              <annotatedPattern>I find first item</annotatedPattern>
+              <resolvedPattern>I\s+find\s+first\s+item</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>THEN</type>
+              <annotatedPattern>Search made and name verified</annotatedPattern>
+              <resolvedPattern>Search\s+made\s+and\s+name\s+verified</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>WHEN</type>
+              <annotatedPattern>Set min sum</annotatedPattern>
+              <resolvedPattern>Set\s+min\s+sum</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>THEN</type>
+              <annotatedPattern>Name of first item is entered in search field</annotatedPattern>
+              <resolvedPattern>Name\s+of\s+first\s+item\s+is\s+entered\s+in\s+search\s+field</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>WHEN</type>
+              <annotatedPattern>I set brands</annotatedPattern>
+              <resolvedPattern>I\s+set\s+brands</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>THEN</type>
+              <annotatedPattern>Count items displayed</annotatedPattern>
+              <resolvedPattern>Count\s+items\s+displayed</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>WHEN</type>
+              <annotatedPattern>I navigate to Market</annotatedPattern>
+              <resolvedPattern>I\s+navigate\s+to\s+Market</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>WHEN</type>
+              <annotatedPattern>I open URL</annotatedPattern>
+              <resolvedPattern>I\s+open\s+URL</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>WHEN</type>
+              <annotatedPattern>I navigate to Electronics</annotatedPattern>
+              <resolvedPattern>I\s+navigate\s+to\s+Electronics</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>WHEN</type>
+              <annotatedPattern>I press Apply</annotatedPattern>
+              <resolvedPattern>I\s+press\s+Apply</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>WHEN</type>
+              <annotatedPattern>I navigate to TV</annotatedPattern>
+              <resolvedPattern>I\s+navigate\s+to\s+TV</resolvedPattern>
+            </stepMatch>
+          </matches>
+          <results>
+            <successful>
+              <step>Given I launch browser</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>Given I launch browser</parametrisedStep>
+              <durationInMillis>15</durationInMillis>
+            </successful>
+            <successful>
+              <step>When I open URL</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>When I open URL</parametrisedStep>
+              <durationInMillis>0</durationInMillis>
+            </successful>
+            <successful>
+              <step>Then URL is opened</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>Then URL is opened</parametrisedStep>
+              <durationInMillis>1</durationInMillis>
+            </successful>
+            <successful>
+              <step>When I navigate to Market</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>When I navigate to Market</parametrisedStep>
+              <durationInMillis>0</durationInMillis>
+            </successful>
+            <successful>
+              <step>Then Market URL is opened</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>Then Market URL is opened</parametrisedStep>
+              <durationInMillis>0</durationInMillis>
+            </successful>
+            <successful>
+              <step>When I navigate to Electronics</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>When I navigate to Electronics</parametrisedStep>
+              <durationInMillis>0</durationInMillis>
+            </successful>
+            <successful>
+              <step>When I navigate to TV</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>When I navigate to TV</parametrisedStep>
+              <durationInMillis>0</durationInMillis>
+            </successful>
+            <successful>
+              <step>Then TV page is opened</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>Then TV page is opened</parametrisedStep>
+              <durationInMillis>0</durationInMillis>
+            </successful>
+            <successful>
+              <step>When Set min sum</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>When Set min sum</parametrisedStep>
+              <durationInMillis>0</durationInMillis>
+            </successful>
+            <successful>
+              <step>When I set brands</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>When I set brands</parametrisedStep>
+              <durationInMillis>0</durationInMillis>
+            </successful>
+            <successful>
+              <step>When I press Apply</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>When I press Apply</parametrisedStep>
+              <durationInMillis>0</durationInMillis>
+            </successful>
+            <successful>
+              <step>Then Count items displayed</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>Then Count items displayed</parametrisedStep>
+              <durationInMillis>0</durationInMillis>
+            </successful>
+            <successful>
+              <step>When I find first item</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>When I find first item</parametrisedStep>
+              <durationInMillis>0</durationInMillis>
+            </successful>
+            <successful>
+              <step>Then Name of first item is entered in search field</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>Then Name of first item is entered in search field</parametrisedStep>
+              <durationInMillis>0</durationInMillis>
+            </successful>
+            <successful>
+              <step>Then Search made and name verified</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>Then Search made and name verified</parametrisedStep>
+              <durationInMillis>0</durationInMillis>
+            </successful>
+          </results>
+        </steps>
+        <afterSteps>
+          <matches/>
+        </afterSteps>
+        <storyAndScenarioMeta>
+          <properties/>
+        </storyAndScenarioMeta>
+        <scenario>
+          <title>Yandex Market Test</title>
+          <meta>
+            <properties/>
+          </meta>
+          <givenStories>
+            <givenStories/>
+            <givenStoriesAsString></givenStoriesAsString>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+          </givenStories>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <headerSeparator>|</headerSeparator>
+            <valueSeparator>|</valueSeparator>
+            <ignorableSeparator>|--</ignorableSeparator>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <property name="headerSeparator" value="|"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="ignorableSeparator" value="|--"/>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+            <trim>true</trim>
+          </examplesTable>
+          <steps>
+            <string>Given I launch browser</string>
+            <string>When I open URL</string>
+            <string>Then URL is opened</string>
+            <string>When I navigate to Market</string>
+            <string>Then Market URL is opened</string>
+            <string>When I navigate to Electronics</string>
+            <string>When I navigate to TV</string>
+            <string>Then TV page is opened</string>
+            <string>When Set min sum</string>
+            <string>When I set brands</string>
+            <string>When I press Apply</string>
+            <string>Then Count items displayed</string>
+            <string>When I find first item</string>
+            <string>Then Name of first item is entered in search field</string>
+            <string>Then Search made and name verified</string>
+          </steps>
+        </scenario>
+      </normalPerformableScenario>
+      <examplePerformableScenarios/>
+      <status>SUCCESSFUL</status>
+    </performableScenario>
+  </scenarios>
+</xref>

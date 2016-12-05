@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="30" passed="30">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Alfatest" duration-ms="60278" started-at="2016-12-05T12:30:59Z" finished-at="2016-12-05T12:31:59Z">
+    <groups>
+    </groups>
+    <test name="Alfatest" duration-ms="60278" started-at="2016-12-05T12:30:59Z" finished-at="2016-12-05T12:31:59Z">
+      <class name="org.test.alfa.AlfaTestStepsTV">
+        <test-method status="PASS" signature="s01_BrowserMaximizeLaunch()[pri:0, instance:AlfaTestStepsTV[org.test.alfa.AlfaTestStepsTV@72d818d1]]" name="s01_BrowserMaximizeLaunch" duration-ms="3580" started-at="2016-12-05T15:31:35Z" finished-at="2016-12-05T15:31:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s01_BrowserMaximizeLaunch -->
+        <test-method status="PASS" signature="s02_UrlOpen()[pri:0, instance:AlfaTestStepsTV[org.test.alfa.AlfaTestStepsTV@72d818d1]]" name="s02_UrlOpen" duration-ms="1245" started-at="2016-12-05T15:31:38Z" finished-at="2016-12-05T15:31:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s02_UrlOpen -->
+        <test-method status="PASS" signature="s03_UrlCcheck()[pri:0, instance:AlfaTestStepsTV[org.test.alfa.AlfaTestStepsTV@72d818d1]]" name="s03_UrlCcheck" duration-ms="18" started-at="2016-12-05T15:31:39Z" finished-at="2016-12-05T15:31:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s03_UrlCcheck -->
+        <test-method status="PASS" signature="s04_MarketOpen()[pri:0, instance:AlfaTestStepsTV[org.test.alfa.AlfaTestStepsTV@72d818d1]]" name="s04_MarketOpen" duration-ms="2304" started-at="2016-12-05T15:31:39Z" finished-at="2016-12-05T15:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s04_MarketOpen -->
+        <test-method status="PASS" signature="s05_MarketUrlCheck()[pri:0, instance:AlfaTestStepsTV[org.test.alfa.AlfaTestStepsTV@72d818d1]]" name="s05_MarketUrlCheck" duration-ms="13" started-at="2016-12-05T15:31:42Z" finished-at="2016-12-05T15:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s05_MarketUrlCheck -->
+        <test-method status="PASS" signature="s06_ElectronicsOpen()[pri:0, instance:AlfaTestStepsTV[org.test.alfa.AlfaTestStepsTV@72d818d1]]" name="s06_ElectronicsOpen" duration-ms="2514" started-at="2016-12-05T15:31:42Z" finished-at="2016-12-05T15:31:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s06_ElectronicsOpen -->
+        <test-method status="PASS" signature="s07_TVOpen()[pri:0, instance:AlfaTestStepsTV[org.test.alfa.AlfaTestStepsTV@72d818d1]]" name="s07_TVOpen" duration-ms="3924" started-at="2016-12-05T15:31:44Z" finished-at="2016-12-05T15:31:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s07_TVOpen -->
+        <test-method status="PASS" signature="s08_TVUrlCheck()[pri:0, instance:AlfaTestStepsTV[org.test.alfa.AlfaTestStepsTV@72d818d1]]" name="s08_TVUrlCheck" duration-ms="17" started-at="2016-12-05T15:31:48Z" finished-at="2016-12-05T15:31:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s08_TVUrlCheck -->
+        <test-method status="PASS" signature="s09_MinSumSet()[pri:0, instance:AlfaTestStepsTV[org.test.alfa.AlfaTestStepsTV@72d818d1]]" name="s09_MinSumSet" duration-ms="72" started-at="2016-12-05T15:31:48Z" finished-at="2016-12-05T15:31:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s09_MinSumSet -->
+        <test-method status="PASS" signature="s10_SetBrand()[pri:0, instance:AlfaTestStepsTV[org.test.alfa.AlfaTestStepsTV@72d818d1]]" name="s10_SetBrand" duration-ms="294" started-at="2016-12-05T15:31:48Z" finished-at="2016-12-05T15:31:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s10_SetBrand -->
+        <test-method status="PASS" signature="s11_PressApply()[pri:0, instance:AlfaTestStepsTV[org.test.alfa.AlfaTestStepsTV@72d818d1]]" name="s11_PressApply" duration-ms="177" started-at="2016-12-05T15:31:49Z" finished-at="2016-12-05T15:31:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s11_PressApply -->
+        <test-method status="PASS" signature="s12_CountItems()[pri:0, instance:AlfaTestStepsTV[org.test.alfa.AlfaTestStepsTV@72d818d1]]" name="s12_CountItems" duration-ms="5472" started-at="2016-12-05T15:31:49Z" finished-at="2016-12-05T15:31:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s12_CountItems -->
+        <test-method status="PASS" signature="s13_FindFirstItem()[pri:0, instance:AlfaTestStepsTV[org.test.alfa.AlfaTestStepsTV@72d818d1]]" name="s13_FindFirstItem" duration-ms="83" started-at="2016-12-05T15:31:54Z" finished-at="2016-12-05T15:31:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s13_FindFirstItem -->
+        <test-method status="PASS" signature="s14_SearchByName()[pri:0, instance:AlfaTestStepsTV[org.test.alfa.AlfaTestStepsTV@72d818d1]]" name="s14_SearchByName" duration-ms="212" started-at="2016-12-05T15:31:54Z" finished-at="2016-12-05T15:31:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s14_SearchByName -->
+        <test-method status="PASS" signature="s15_CheckFoundItem()[pri:0, instance:AlfaTestStepsTV[org.test.alfa.AlfaTestStepsTV@72d818d1]]" name="s15_CheckFoundItem" duration-ms="4367" started-at="2016-12-05T15:31:55Z" finished-at="2016-12-05T15:31:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s15_CheckFoundItem -->
+      </class> <!-- org.test.alfa.AlfaTestStepsTV -->
+      <class name="org.test.alfa.AlfaTestStepsHP">
+        <test-method status="PASS" signature="s01_BrowserMaximizeLaunch()[pri:0, instance:AlfaTestStepsHP[org.test.alfa.AlfaTestStepsHP@464bee09]]" name="s01_BrowserMaximizeLaunch" duration-ms="6445" started-at="2016-12-05T15:30:59Z" finished-at="2016-12-05T15:31:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s01_BrowserMaximizeLaunch -->
+        <test-method status="PASS" signature="s02_UrlOpen()[pri:0, instance:AlfaTestStepsHP[org.test.alfa.AlfaTestStepsHP@464bee09]]" name="s02_UrlOpen" duration-ms="1323" started-at="2016-12-05T15:31:05Z" finished-at="2016-12-05T15:31:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s02_UrlOpen -->
+        <test-method status="PASS" signature="s03_UrlCcheck()[pri:0, instance:AlfaTestStepsHP[org.test.alfa.AlfaTestStepsHP@464bee09]]" name="s03_UrlCcheck" duration-ms="12" started-at="2016-12-05T15:31:06Z" finished-at="2016-12-05T15:31:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s03_UrlCcheck -->
+        <test-method status="PASS" signature="s04_MarketOpen()[pri:0, instance:AlfaTestStepsHP[org.test.alfa.AlfaTestStepsHP@464bee09]]" name="s04_MarketOpen" duration-ms="2248" started-at="2016-12-05T15:31:06Z" finished-at="2016-12-05T15:31:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s04_MarketOpen -->
+        <test-method status="PASS" signature="s05_MarketUrlCheck()[pri:0, instance:AlfaTestStepsHP[org.test.alfa.AlfaTestStepsHP@464bee09]]" name="s05_MarketUrlCheck" duration-ms="14" started-at="2016-12-05T15:31:09Z" finished-at="2016-12-05T15:31:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s05_MarketUrlCheck -->
+        <test-method status="PASS" signature="s06_ElectronicsOpen()[pri:0, instance:AlfaTestStepsHP[org.test.alfa.AlfaTestStepsHP@464bee09]]" name="s06_ElectronicsOpen" duration-ms="2972" started-at="2016-12-05T15:31:09Z" finished-at="2016-12-05T15:31:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s06_ElectronicsOpen -->
+        <test-method status="PASS" signature="s07_HeadphonesOpen()[pri:0, instance:AlfaTestStepsHP[org.test.alfa.AlfaTestStepsHP@464bee09]]" name="s07_HeadphonesOpen" duration-ms="4544" started-at="2016-12-05T15:31:12Z" finished-at="2016-12-05T15:31:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s07_HeadphonesOpen -->
+        <test-method status="PASS" signature="s08_HPUrlCheck()[pri:0, instance:AlfaTestStepsHP[org.test.alfa.AlfaTestStepsHP@464bee09]]" name="s08_HPUrlCheck" duration-ms="25" started-at="2016-12-05T15:31:16Z" finished-at="2016-12-05T15:31:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s08_HPUrlCheck -->
+        <test-method status="PASS" signature="s09_MinSumSet()[pri:0, instance:AlfaTestStepsHP[org.test.alfa.AlfaTestStepsHP@464bee09]]" name="s09_MinSumSet" duration-ms="65" started-at="2016-12-05T15:31:16Z" finished-at="2016-12-05T15:31:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s09_MinSumSet -->
+        <test-method status="PASS" signature="s10_SetBrand()[pri:0, instance:AlfaTestStepsHP[org.test.alfa.AlfaTestStepsHP@464bee09]]" name="s10_SetBrand" duration-ms="116" started-at="2016-12-05T15:31:16Z" finished-at="2016-12-05T15:31:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s10_SetBrand -->
+        <test-method status="PASS" signature="s11_PressApply()[pri:0, instance:AlfaTestStepsHP[org.test.alfa.AlfaTestStepsHP@464bee09]]" name="s11_PressApply" duration-ms="142" started-at="2016-12-05T15:31:16Z" finished-at="2016-12-05T15:31:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s11_PressApply -->
+        <test-method status="PASS" signature="s12_CountItems()[pri:0, instance:AlfaTestStepsHP[org.test.alfa.AlfaTestStepsHP@464bee09]]" name="s12_CountItems" duration-ms="5574" started-at="2016-12-05T15:31:17Z" finished-at="2016-12-05T15:31:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s12_CountItems -->
+        <test-method status="PASS" signature="s13_FindFirstItem()[pri:0, instance:AlfaTestStepsHP[org.test.alfa.AlfaTestStepsHP@464bee09]]" name="s13_FindFirstItem" duration-ms="36" started-at="2016-12-05T15:31:22Z" finished-at="2016-12-05T15:31:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s13_FindFirstItem -->
+        <test-method status="PASS" signature="s14_SearchByName()[pri:0, instance:AlfaTestStepsHP[org.test.alfa.AlfaTestStepsHP@464bee09]]" name="s14_SearchByName" duration-ms="121" started-at="2016-12-05T15:31:22Z" finished-at="2016-12-05T15:31:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s14_SearchByName -->
+        <test-method status="PASS" signature="s15_CheckFoundItem()[pri:0, instance:AlfaTestStepsHP[org.test.alfa.AlfaTestStepsHP@464bee09]]" name="s15_CheckFoundItem" duration-ms="12321" started-at="2016-12-05T15:31:22Z" finished-at="2016-12-05T15:31:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s15_CheckFoundItem -->
+      </class> <!-- org.test.alfa.AlfaTestStepsHP -->
+    </test> <!-- Alfatest -->
+  </suite> <!-- Alfatest -->
+</testng-results>

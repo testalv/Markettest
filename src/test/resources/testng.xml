@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Markettest">
+    <test name="Alfatest" preserve-order="true">
+        <classes>
+            <class name="org.test.alfa.AlfaTestStepsHP">
+                <methods>
+                    <include name="AlfaTestStepsHP" />
+                </methods>
+            </class>
+            <class name="org.test.alfa.AlfaTestStepsTV">
+                <methods>
+                    <include name="AlfaTestStepsTV" />
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+</suite>

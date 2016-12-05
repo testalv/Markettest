@@ -1,0 +1,38 @@
+
+(stories.alfa/Alfa1.story)
+Scenario: Yandex Market Test
+Given I launch browser
+When I open URL
+Then URL is opened
+When I navigate to Market
+Then Market URL is opened
+When I navigate to Electronics
+When I navigate to TV (PENDING)
+Then TV page is opened (PENDING)
+When Set min sum (NOT PERFORMED)
+When I set brands (NOT PERFORMED)
+When I press Apply (PENDING)
+Then Count items displayed (NOT PERFORMED)
+When I find first item (NOT PERFORMED)
+Then Name of first item is entered in search field (NOT PERFORMED)
+Then Search made and name verified (NOT PERFORMED)
+@When("I navigate to TV")
+@Pending
+public void whenINavigateToTV() {
+  // PENDING
+}
+
+@Then("TV page is opened")
+@Pending
+public void thenTVPageIsOpened() {
+  // PENDING
+}
+
+@When("I press Apply")
+@Pending
+public void whenIPressApply() {
+  // PENDING
+}
+
+
+

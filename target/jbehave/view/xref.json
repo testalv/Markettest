@@ -1,0 +1,1016 @@
+{"xref": {
+  "stories": [
+    {
+      "story": {
+        "path": "stories.alfa/AlfaTV.story",
+        "description": {
+          "descriptionAsString": ""
+        },
+        "narrative": {
+          "inOrderTo": "",
+          "asA": "",
+          "iWantTo": "",
+          "soThat": ""
+        },
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          }
+        },
+        "lifecycle": {
+          "before": {
+            "steps": [
+              []
+            ]
+          },
+          "after": []
+        },
+        "scenarios": [
+          {
+            "title": "Yandex Market Test",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            },
+            "steps": [
+              "Given I launch browser",
+              "When I open URL",
+              "Then URL is opened",
+              "When I navigate to Market",
+              "Then Market URL is opened",
+              "When I navigate to Electronics",
+              "When I navigate to TV",
+              "Then TV page is opened",
+              "When Set min sum",
+              "When I set brands",
+              "When I press Apply",
+              "Then Count items displayed",
+              "When I find first item",
+              "Then Name of first item is entered in search field",
+              "Then Search made and name verified"
+            ]
+          }
+        ],
+        "name": "AlfaTV.story"
+      },
+      "localizedNarrative": "As a \nI want to \nSo that ",
+      "allowed": true,
+      "status": "SUCCESSFUL",
+      "givenStories": [],
+      "scenarios": [
+        {
+          "scenario": {
+            "title": "Yandex Market Test",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            },
+            "steps": [
+              "Given I launch browser",
+              "When I open URL",
+              "Then URL is opened",
+              "When I navigate to Market",
+              "Then Market URL is opened",
+              "When I navigate to Electronics",
+              "When I navigate to TV",
+              "Then TV page is opened",
+              "When Set min sum",
+              "When I set brands",
+              "When I press Apply",
+              "Then Count items displayed",
+              "When I find first item",
+              "Then Name of first item is entered in search field",
+              "Then Search made and name verified"
+            ]
+          },
+          "storyPath": "stories.alfa/AlfaTV.story",
+          "allowed": true,
+          "normalPerformableScenario": {
+            "parameters": [],
+            "givenStories": [],
+            "beforeSteps": {
+              "matches": []
+            },
+            "steps": {
+              "matches": [
+                {
+                  "type": "THEN",
+                  "annotatedPattern": "TV page is opened",
+                  "resolvedPattern": "TV\\s+page\\s+is\\s+opened"
+                },
+                {
+                  "type": "GIVEN",
+                  "annotatedPattern": "I launch browser",
+                  "resolvedPattern": "I\\s+launch\\s+browser"
+                },
+                {
+                  "type": "THEN",
+                  "annotatedPattern": "URL is opened",
+                  "resolvedPattern": "URL\\s+is\\s+opened"
+                },
+                {
+                  "type": "THEN",
+                  "annotatedPattern": "Market URL is opened",
+                  "resolvedPattern": "Market\\s+URL\\s+is\\s+opened"
+                },
+                {
+                  "type": "WHEN",
+                  "annotatedPattern": "I find first item",
+                  "resolvedPattern": "I\\s+find\\s+first\\s+item"
+                },
+                {
+                  "type": "THEN",
+                  "annotatedPattern": "Search made and name verified",
+                  "resolvedPattern": "Search\\s+made\\s+and\\s+name\\s+verified"
+                },
+                {
+                  "type": "WHEN",
+                  "annotatedPattern": "Set min sum",
+                  "resolvedPattern": "Set\\s+min\\s+sum"
+                },
+                {
+                  "type": "THEN",
+                  "annotatedPattern": "Name of first item is entered in search field",
+                  "resolvedPattern": "Name\\s+of\\s+first\\s+item\\s+is\\s+entered\\s+in\\s+search\\s+field"
+                },
+                {
+                  "type": "WHEN",
+                  "annotatedPattern": "I set brands",
+                  "resolvedPattern": "I\\s+set\\s+brands"
+                },
+                {
+                  "type": "THEN",
+                  "annotatedPattern": "Count items displayed",
+                  "resolvedPattern": "Count\\s+items\\s+displayed"
+                },
+                {
+                  "type": "WHEN",
+                  "annotatedPattern": "I navigate to Market",
+                  "resolvedPattern": "I\\s+navigate\\s+to\\s+Market"
+                },
+                {
+                  "type": "WHEN",
+                  "annotatedPattern": "I open URL",
+                  "resolvedPattern": "I\\s+open\\s+URL"
+                },
+                {
+                  "type": "WHEN",
+                  "annotatedPattern": "I navigate to Electronics",
+                  "resolvedPattern": "I\\s+navigate\\s+to\\s+Electronics"
+                },
+                {
+                  "type": "WHEN",
+                  "annotatedPattern": "I press Apply",
+                  "resolvedPattern": "I\\s+press\\s+Apply"
+                },
+                {
+                  "type": "WHEN",
+                  "annotatedPattern": "I navigate to TV",
+                  "resolvedPattern": "I\\s+navigate\\s+to\\s+TV"
+                }
+              ],
+              "results": [
+                {
+                  "step": "Given I launch browser",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Given I launch browser",
+                  "durationInMillis": 15
+                },
+                {
+                  "step": "When I open URL",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "When I open URL",
+                  "durationInMillis": 0
+                },
+                {
+                  "step": "Then URL is opened",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Then URL is opened",
+                  "durationInMillis": 1
+                },
+                {
+                  "step": "When I navigate to Market",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "When I navigate to Market",
+                  "durationInMillis": 0
+                },
+                {
+                  "step": "Then Market URL is opened",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Then Market URL is opened",
+                  "durationInMillis": 0
+                },
+                {
+                  "step": "When I navigate to Electronics",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "When I navigate to Electronics",
+                  "durationInMillis": 0
+                },
+                {
+                  "step": "When I navigate to TV",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "When I navigate to TV",
+                  "durationInMillis": 0
+                },
+                {
+                  "step": "Then TV page is opened",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Then TV page is opened",
+                  "durationInMillis": 0
+                },
+                {
+                  "step": "When Set min sum",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "When Set min sum",
+                  "durationInMillis": 0
+                },
+                {
+                  "step": "When I set brands",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "When I set brands",
+                  "durationInMillis": 0
+                },
+                {
+                  "step": "When I press Apply",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "When I press Apply",
+                  "durationInMillis": 0
+                },
+                {
+                  "step": "Then Count items displayed",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Then Count items displayed",
+                  "durationInMillis": 0
+                },
+                {
+                  "step": "When I find first item",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "When I find first item",
+                  "durationInMillis": 0
+                },
+                {
+                  "step": "Then Name of first item is entered in search field",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Then Name of first item is entered in search field",
+                  "durationInMillis": 0
+                },
+                {
+                  "step": "Then Search made and name verified",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Then Search made and name verified",
+                  "durationInMillis": 0
+                }
+              ]
+            },
+            "afterSteps": {
+              "matches": []
+            },
+            "storyAndScenarioMeta": {
+              "properties": []
+            },
+            "scenario": {
+              "title": "Yandex Market Test",
+              "meta": {
+                "properties": []
+              },
+              "givenStories": {
+                "givenStories": [],
+                "givenStoriesAsString": "",
+                "examplesTable": {
+                  "tableAsString": "",
+                  "headerSeparator": "|",
+                  "valueSeparator": "|",
+                  "ignorableSeparator": "|--",
+                  "tableTransformers": {
+                    "transformers": [
+                      [
+                        "FORMATTING",
+                        {}
+                      ],
+                      [
+                        "REPLACING",
+                        {}
+                      ],
+                      [
+                        "FROM_LANDSCAPE",
+                        {}
+                      ]
+                    ]
+                  },
+                  "headers": [],
+                  "data": [],
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ],
+                  "propertiesAsString": "",
+                  "namedParameters": [],
+                  "trim": true
+                }
+              },
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              },
+              "steps": [
+                "Given I launch browser",
+                "When I open URL",
+                "Then URL is opened",
+                "When I navigate to Market",
+                "Then Market URL is opened",
+                "When I navigate to Electronics",
+                "When I navigate to TV",
+                "Then TV page is opened",
+                "When Set min sum",
+                "When I set brands",
+                "When I press Apply",
+                "Then Count items displayed",
+                "When I find first item",
+                "Then Name of first item is entered in search field",
+                "Then Search made and name verified"
+              ]
+            }
+          },
+          "examplePerformableScenarios": [],
+          "status": "SUCCESSFUL"
+        }
+      ],
+      "beforeSteps": {},
+      "afterSteps": {},
+      "timing": {
+        "durationInMillis": 38
+      },
+      "givenStory": false
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario": {
+        "title": "Yandex Market Test",
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          }
+        },
+        "examplesTable": {
+          "tableAsString": "",
+          "headerSeparator": "|",
+          "valueSeparator": "|",
+          "ignorableSeparator": "|--",
+          "tableTransformers": {
+            "transformers": [
+              [
+                "FORMATTING",
+                {}
+              ],
+              [
+                "REPLACING",
+                {}
+              ],
+              [
+                "FROM_LANDSCAPE",
+                {}
+              ]
+            ]
+          },
+          "headers": [],
+          "data": [],
+          "properties": [
+            {
+              "@name": "headerSeparator",
+              "@value": "|"
+            },
+            {
+              "@name": "valueSeparator",
+              "@value": "|"
+            },
+            {
+              "@name": "ignorableSeparator",
+              "@value": "|--"
+            }
+          ],
+          "propertiesAsString": "",
+          "namedParameters": [],
+          "trim": true
+        },
+        "steps": [
+          "Given I launch browser",
+          "When I open URL",
+          "Then URL is opened",
+          "When I navigate to Market",
+          "Then Market URL is opened",
+          "When I navigate to Electronics",
+          "When I navigate to TV",
+          "Then TV page is opened",
+          "When Set min sum",
+          "When I set brands",
+          "When I press Apply",
+          "Then Count items displayed",
+          "When I find first item",
+          "Then Name of first item is entered in search field",
+          "Then Search made and name verified"
+        ]
+      },
+      "storyPath": "stories.alfa/AlfaTV.story",
+      "allowed": true,
+      "normalPerformableScenario": {
+        "parameters": [],
+        "givenStories": [],
+        "beforeSteps": {
+          "matches": []
+        },
+        "steps": {
+          "matches": [
+            {
+              "type": "THEN",
+              "annotatedPattern": "TV page is opened",
+              "resolvedPattern": "TV\\s+page\\s+is\\s+opened"
+            },
+            {
+              "type": "GIVEN",
+              "annotatedPattern": "I launch browser",
+              "resolvedPattern": "I\\s+launch\\s+browser"
+            },
+            {
+              "type": "THEN",
+              "annotatedPattern": "URL is opened",
+              "resolvedPattern": "URL\\s+is\\s+opened"
+            },
+            {
+              "type": "THEN",
+              "annotatedPattern": "Market URL is opened",
+              "resolvedPattern": "Market\\s+URL\\s+is\\s+opened"
+            },
+            {
+              "type": "WHEN",
+              "annotatedPattern": "I find first item",
+              "resolvedPattern": "I\\s+find\\s+first\\s+item"
+            },
+            {
+              "type": "THEN",
+              "annotatedPattern": "Search made and name verified",
+              "resolvedPattern": "Search\\s+made\\s+and\\s+name\\s+verified"
+            },
+            {
+              "type": "WHEN",
+              "annotatedPattern": "Set min sum",
+              "resolvedPattern": "Set\\s+min\\s+sum"
+            },
+            {
+              "type": "THEN",
+              "annotatedPattern": "Name of first item is entered in search field",
+              "resolvedPattern": "Name\\s+of\\s+first\\s+item\\s+is\\s+entered\\s+in\\s+search\\s+field"
+            },
+            {
+              "type": "WHEN",
+              "annotatedPattern": "I set brands",
+              "resolvedPattern": "I\\s+set\\s+brands"
+            },
+            {
+              "type": "THEN",
+              "annotatedPattern": "Count items displayed",
+              "resolvedPattern": "Count\\s+items\\s+displayed"
+            },
+            {
+              "type": "WHEN",
+              "annotatedPattern": "I navigate to Market",
+              "resolvedPattern": "I\\s+navigate\\s+to\\s+Market"
+            },
+            {
+              "type": "WHEN",
+              "annotatedPattern": "I open URL",
+              "resolvedPattern": "I\\s+open\\s+URL"
+            },
+            {
+              "type": "WHEN",
+              "annotatedPattern": "I navigate to Electronics",
+              "resolvedPattern": "I\\s+navigate\\s+to\\s+Electronics"
+            },
+            {
+              "type": "WHEN",
+              "annotatedPattern": "I press Apply",
+              "resolvedPattern": "I\\s+press\\s+Apply"
+            },
+            {
+              "type": "WHEN",
+              "annotatedPattern": "I navigate to TV",
+              "resolvedPattern": "I\\s+navigate\\s+to\\s+TV"
+            }
+          ],
+          "results": [
+            {
+              "step": "Given I launch browser",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Given I launch browser",
+              "durationInMillis": 15
+            },
+            {
+              "step": "When I open URL",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "When I open URL",
+              "durationInMillis": 0
+            },
+            {
+              "step": "Then URL is opened",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Then URL is opened",
+              "durationInMillis": 1
+            },
+            {
+              "step": "When I navigate to Market",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "When I navigate to Market",
+              "durationInMillis": 0
+            },
+            {
+              "step": "Then Market URL is opened",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Then Market URL is opened",
+              "durationInMillis": 0
+            },
+            {
+              "step": "When I navigate to Electronics",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "When I navigate to Electronics",
+              "durationInMillis": 0
+            },
+            {
+              "step": "When I navigate to TV",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "When I navigate to TV",
+              "durationInMillis": 0
+            },
+            {
+              "step": "Then TV page is opened",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Then TV page is opened",
+              "durationInMillis": 0
+            },
+            {
+              "step": "When Set min sum",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "When Set min sum",
+              "durationInMillis": 0
+            },
+            {
+              "step": "When I set brands",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "When I set brands",
+              "durationInMillis": 0
+            },
+            {
+              "step": "When I press Apply",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "When I press Apply",
+              "durationInMillis": 0
+            },
+            {
+              "step": "Then Count items displayed",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Then Count items displayed",
+              "durationInMillis": 0
+            },
+            {
+              "step": "When I find first item",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "When I find first item",
+              "durationInMillis": 0
+            },
+            {
+              "step": "Then Name of first item is entered in search field",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Then Name of first item is entered in search field",
+              "durationInMillis": 0
+            },
+            {
+              "step": "Then Search made and name verified",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Then Search made and name verified",
+              "durationInMillis": 0
+            }
+          ]
+        },
+        "afterSteps": {
+          "matches": []
+        },
+        "storyAndScenarioMeta": {
+          "properties": []
+        },
+        "scenario": {
+          "title": "Yandex Market Test",
+          "meta": {
+            "properties": []
+          },
+          "givenStories": {
+            "givenStories": [],
+            "givenStoriesAsString": "",
+            "examplesTable": {
+              "tableAsString": "",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            }
+          },
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          },
+          "steps": [
+            "Given I launch browser",
+            "When I open URL",
+            "Then URL is opened",
+            "When I navigate to Market",
+            "Then Market URL is opened",
+            "When I navigate to Electronics",
+            "When I navigate to TV",
+            "Then TV page is opened",
+            "When Set min sum",
+            "When I set brands",
+            "When I press Apply",
+            "Then Count items displayed",
+            "When I find first item",
+            "Then Name of first item is entered in search field",
+            "Then Search made and name verified"
+          ]
+        }
+      },
+      "examplePerformableScenarios": [],
+      "status": "SUCCESSFUL"
+    }
+  ]
+}}

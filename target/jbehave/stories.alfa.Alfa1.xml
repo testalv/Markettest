@@ -1,0 +1,37 @@
+<story path="stories.alfa/Alfa1.story" title="">
+<scenario keyword="Scenario:" title="Yandex Market Test">
+<step outcome="successful">Given I launch browser</step>
+<step outcome="successful">When I open URL</step>
+<step outcome="successful">Then URL is opened</step>
+<step outcome="successful">When I navigate to Market</step>
+<step outcome="successful">Then Market URL is opened</step>
+<step outcome="successful">When I navigate to Electronics</step>
+<step outcome="pending" keyword="PENDING">When I navigate to TV</step>
+<step outcome="pending" keyword="PENDING">Then TV page is opened</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">When Set min sum</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">When I set brands</step>
+<step outcome="pending" keyword="PENDING">When I press Apply</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then Count items displayed</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">When I find first item</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then Name of first item is entered in search field</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then Search made and name verified</step>
+<pendingMethod>@When(&quot;I navigate to TV&quot;)
+@Pending
+public void whenINavigateToTV() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@Then(&quot;TV page is opened&quot;)
+@Pending
+public void thenTVPageIsOpened() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@When(&quot;I press Apply&quot;)
+@Pending
+public void whenIPressApply() {
+  // PENDING
+}
+</pendingMethod>
+</scenario>
+</story>
